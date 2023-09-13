@@ -2,7 +2,7 @@ import java.io.BufferedReader;
 import java.io.InputStreamReader;
 
 /*
- * I haven't looked into Java lambdas too much so I used 
+ * I haven't looked into Java lambdas too much so I used
  * https://www.geeksforgeeks.org/method-within-method-in-java/ to figure it out
  */
 
@@ -30,13 +30,13 @@ public class App {
     }
 
     organisms = Math.round(tmpOrganisms); // <--- The organisms should be a whole number... i'm not gonna have 10.2 oragnisms
-    System.out.println("The population of the organisms after " + days + " days will be " + organisms);
+    System.out
+        .println("The population of the organisms after " + days + " days will be " + organisms);
   }
 
   private static int GetIntCount(BufferedReader reader, Type type) throws Exception {
     try {
-      System.out.println(type == Type.organism
-          ? "Enter the starting number of organisms: "
+      System.out.println(type == Type.organism ? "Enter the starting number of organisms: "
           : "Enter the amount of days the population will increase: ");
 
       return Integer.parseInt(reader.readLine());
