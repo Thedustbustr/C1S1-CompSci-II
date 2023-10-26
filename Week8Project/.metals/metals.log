@@ -1,0 +1,1064 @@
+2023.10.25 23:02:46 INFO  Started: Metals version 1.1.0 in folders 'E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project' for client Visual Studio Code 1.83.1.
+Oct 25, 2023 11:02:46 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1
+2023.10.25 23:02:47 WARN  Build server is not auto-connectable.
+2023.10.25 23:02:47 WARN  no build tool detected in workspace 'E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. 
+2023.10.25 23:02:47 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Errors\Threads.java
+2023.10.25 23:02:47 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\GradeBook.java
+2023.10.25 23:02:47 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Parser\Parsers\ParsedAssignment.java
+2023.10.25 23:02:47 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\lib\Callbacks\Callback.java
+2023.10.25 23:02:47 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:02:47 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\lib\Callbacks\CallbackManager.java
+2023.10.25 23:02:47 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Errors\Logging.java
+2023.10.25 23:02:47 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Assignment.java
+2023.10.25 23:02:47 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Parser\Parsers\ParsedData.java
+2023.10.25 23:02:48 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/lib/Callbacks/Callback.java. Output:
+
+2023.10.25 23:02:48 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:02:48 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:02:48 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedData.java. Output:
+
+2023.10.25 23:02:48 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Errors/Logging.java. Output:
+
+2023.10.25 23:02:48 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Assignment.java. Output:
+
+2023.10.25 23:02:48 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/lib/Callbacks/CallbackManager.java. Output:
+
+2023.10.25 23:02:48 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/GradeBook.java. Output:
+
+2023.10.25 23:02:48 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Errors/Threads.java. Output:
+
+2023.10.25 23:02:54 INFO  no build target found for E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Parser\Parsers\ParsedAssignment.java. Using presentation compiler with project's scala-library version: 3.3.1
+Oct 25, 2023 11:02:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 14
+Oct 25, 2023 11:02:54 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 13
+2023.10.25 23:02:54 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:02:55 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:02:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-02-55-915.md
+2023.10.25 23:02:56 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:03:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-03-02-541.md
+Oct 25, 2023 11:03:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-03-03-306.md
+Oct 25, 2023 11:03:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-03-06-452.md
+Oct 25, 2023 11:03:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-03-14-072.md
+Oct 25, 2023 11:03:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-03-14-273.md
+Oct 25, 2023 11:03:14 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 49
+Oct 25, 2023 11:03:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-03-14-912.md
+2023.10.25 23:03:15 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:03:15 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Parser\Parsers\ParsedAssignment.java
+Oct 25, 2023 11:03:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-03-23-208.md
+Oct 25, 2023 11:03:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-03-24-287.md
+Oct 25, 2023 11:03:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-03-36-427.md
+2023.10.25 23:03:37 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:03:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-03-38-269.md
+2023.10.25 23:03:39 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:03:39 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:03:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-03-45-663.md
+2023.10.25 23:03:48 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:03:49 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Parser\Parsers\ParsedAssignment.java
+Oct 25, 2023 11:03:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-03-50-454.md
+Oct 25, 2023 11:03:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-03-51-149.md
+Oct 25, 2023 11:03:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-03-51-697.md
+2023.10.25 23:03:56 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:03:56 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:03:58 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:03:58 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:03:59 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-03-59-883.md
+2023.10.25 23:04:02 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:04 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:05 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:05 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:08 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:09 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:10 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:04:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-11-006.md
+Oct 25, 2023 11:04:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-11-158.md
+Oct 25, 2023 11:04:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-11-288.md
+2023.10.25 23:04:10 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:04:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-12-423.md
+2023.10.25 23:04:12 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:12 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Parser\Parsers\ParsedAssignment.java
+2023.10.25 23:04:14 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:04:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-18-000.md
+Oct 25, 2023 11:04:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-18-294.md
+Oct 25, 2023 11:04:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-19-195.md
+2023.10.25 23:04:19 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:19 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:20 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:20 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Parser\Parsers\ParsedAssignment.java
+Oct 25, 2023 11:04:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-24-768.md
+2023.10.25 23:04:24 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:25 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:04:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-26-289.md
+2023.10.25 23:04:27 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:04:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-28-426.md
+Oct 25, 2023 11:04:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-28-638.md
+2023.10.25 23:04:28 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:28 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:04:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-29-873.md
+Oct 25, 2023 11:04:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-30-236.md
+Oct 25, 2023 11:04:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-30-424.md
+2023.10.25 23:04:31 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:31 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:31 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:32 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:04:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-32-974.md
+2023.10.25 23:04:34 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:34 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:36 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:36 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:36 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:04:37 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 246
+Oct 25, 2023 11:04:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-37-994.md
+Oct 25, 2023 11:04:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-38-299.md
+2023.10.25 23:04:39 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:04:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-39-497.md
+Oct 25, 2023 11:04:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-39-705.md
+Oct 25, 2023 11:04:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-41-207.md
+2023.10.25 23:04:43 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:45 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:45 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:46 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:04:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-47-789.md
+Oct 25, 2023 11:04:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-48-239.md
+2023.10.25 23:04:48 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Parser\Parsers\ParsedAssignment.java
+2023.10.25 23:04:48 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:53 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:04:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-53-096.md
+2023.10.25 23:04:53 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:04:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-54-614.md
+2023.10.25 23:04:57 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:04:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-57-202.md
+Oct 25, 2023 11:04:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-57-359.md
+Oct 25, 2023 11:04:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-04-57-524.md
+2023.10.25 23:04:57 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:58 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:58 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:04:59 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Parser\Parsers\ParsedAssignment.java
+Oct 25, 2023 11:05:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-01-894.md
+2023.10.25 23:05:02 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:05:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-02-879.md
+2023.10.25 23:05:03 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:05:04 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:05:05 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:05:05 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 353
+Oct 25, 2023 11:05:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-05-587.md
+2023.10.25 23:05:05 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:05:06 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Parser\Parsers\ParsedAssignment.java
+2023.10.25 23:05:09 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:05:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-11-003.md
+2023.10.25 23:05:11 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:05:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-13-644.md
+Oct 25, 2023 11:05:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-15-453.md
+Oct 25, 2023 11:05:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-16-198.md
+Oct 25, 2023 11:05:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-16-527.md
+2023.10.25 23:05:18 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:05:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-18-612.md
+2023.10.25 23:05:18 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:05:19 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:05:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-19-802.md
+2023.10.25 23:05:20 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:05:20 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:05:21 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:05:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-22-205.md
+Oct 25, 2023 11:05:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-23-434.md
+2023.10.25 23:05:24 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:05:25 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:05:26 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:05:26 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:05:27 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:05:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-28-060.md
+Oct 25, 2023 11:05:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-28-252.md
+2023.10.25 23:05:29 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:05:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-30-721.md
+2023.10.25 23:05:32 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:05:32 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:05:32 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Parser\Parsers\ParsedAssignment.java
+Oct 25, 2023 11:05:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-51-567.md
+2023.10.25 23:05:52 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:05:53 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Parser\Parsers\ParsedAssignment.java
+Oct 25, 2023 11:05:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-55-508.md
+Oct 25, 2023 11:05:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 470
+Oct 25, 2023 11:05:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-56-323.md
+Oct 25, 2023 11:05:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-56-543.md
+Oct 25, 2023 11:05:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-05-57-000.md
+2023.10.25 23:05:59 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:06:01 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:06:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-06-01-703.md
+Oct 25, 2023 11:06:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-06-03-213.md
+2023.10.25 23:06:07 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:06:07 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:06:08 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:06:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-06-08-852.md
+2023.10.25 23:06:11 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:06:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-06-14-552.md
+2023.10.25 23:06:14 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:06:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-06-14-927.md
+2023.10.25 23:06:15 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:06:16 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+2023.10.25 23:06:17 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:06:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-06-18-202.md
+2023.10.25 23:06:18 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Parser\Parsers\ParsedAssignment.java
+2023.10.25 23:06:18 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:06:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-06-21-769.md
+Oct 25, 2023 11:06:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-06-22-313.md
+Oct 25, 2023 11:07:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-07-44-624.md
+2023.10.25 23:08:01 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:08:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-11-971.md
+2023.10.25 23:08:12 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:08:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-14-231.md
+Oct 25, 2023 11:08:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-15-174.md
+Oct 25, 2023 11:08:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-15-417.md
+Oct 25, 2023 11:08:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-15-596.md
+Oct 25, 2023 11:08:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-15-729.md
+Oct 25, 2023 11:08:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-15-852.md
+Oct 25, 2023 11:08:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-18-753.md
+Oct 25, 2023 11:08:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-19-397.md
+2023.10.25 23:08:19 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:08:20 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:08:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-20-917.md
+2023.10.25 23:08:21 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:08:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-22-552.md
+Oct 25, 2023 11:08:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-22-743.md
+Oct 25, 2023 11:08:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-22-848.md
+Oct 25, 2023 11:08:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-22-938.md
+Oct 25, 2023 11:08:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-23-279.md
+Oct 25, 2023 11:08:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-23-509.md
+Oct 25, 2023 11:08:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-23-797.md
+Oct 25, 2023 11:08:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-24-007.md
+Oct 25, 2023 11:08:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-24-118.md
+Oct 25, 2023 11:08:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-24-282.md
+Oct 25, 2023 11:08:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-24-608.md
+2023.10.25 23:08:24 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:08:25 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:08:25 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+Oct 25, 2023 11:08:26 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-26-162.md
+Oct 25, 2023 11:08:30 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-30-118.md
+Oct 25, 2023 11:08:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-36-921.md
+Oct 25, 2023 11:08:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-39-704.md
+Oct 25, 2023 11:08:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-40-080.md
+Oct 25, 2023 11:08:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-43-233.md
+Oct 25, 2023 11:08:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-43-906.md
+Oct 25, 2023 11:08:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-44-561.md
+Oct 25, 2023 11:08:45 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-45-676.md
+2023.10.25 23:08:46 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:08:46 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:08:48 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:08:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-48-733.md
+Oct 25, 2023 11:08:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-49-031.md
+Oct 25, 2023 11:08:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-08-49-322.md
+2023.10.25 23:08:54 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:08:55 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:08:55 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:02 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:09:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-02-966.md
+Oct 25, 2023 11:09:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-03-337.md
+2023.10.25 23:09:02 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:09:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-09-659.md
+Oct 25, 2023 11:09:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-10-058.md
+Oct 25, 2023 11:09:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-10-388.md
+2023.10.25 23:09:10 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:11 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:12 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:13 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:14 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:09:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-15-617.md
+2023.10.25 23:09:15 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:16 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:18 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:20 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:09:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-20-901.md
+2023.10.25 23:09:21 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:09:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-21-757.md
+2023.10.25 23:09:22 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:23 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:25 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:09:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-27-973.md
+Oct 25, 2023 11:09:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-29-820.md
+2023.10.25 23:09:31 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:09:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-32-903.md
+2023.10.25 23:09:34 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:09:34 WARN  Using indexes to guess the definition of ParsedAssignment
+Oct 25, 2023 11:09:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-36-169.md
+2023.10.25 23:09:36 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:37 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:09:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-37-512.md
+Oct 25, 2023 11:09:38 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-38-740.md
+Oct 25, 2023 11:09:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-39-727.md
+2023.10.25 23:09:40 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:09:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-40-377.md
+2023.10.25 23:09:40 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:41 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:40 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:09:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-42-291.md
+Oct 25, 2023 11:09:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-44-427.md
+2023.10.25 23:09:45 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:46 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:47 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:09:51 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:09:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-51-102.md
+Oct 25, 2023 11:09:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-51-273.md
+2023.10.25 23:09:51 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:09:52 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-52-769.md
+2023.10.25 23:09:53 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:09:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-53-925.md
+Oct 25, 2023 11:09:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-54-214.md
+Oct 25, 2023 11:09:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-54-381.md
+Oct 25, 2023 11:09:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-54-531.md
+Oct 25, 2023 11:09:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-54-623.md
+Oct 25, 2023 11:09:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-54-808.md
+Oct 25, 2023 11:09:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-09-54-880.md
+2023.10.25 23:09:55 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:56 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:57 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:58 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:09:59 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:10:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-00-879.md
+2023.10.25 23:10:01 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:10:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-01-443.md
+2023.10.25 23:10:02 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:10:03 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:10:04 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:10:06 WARN  Using indexes to guess the definition of ParsedAssignment
+2023.10.25 23:10:07 WARN  Using indexes to guess the definition of ParsedAssignment
+2023.10.25 23:10:07 WARN  Using indexes to guess the definition of ParsedAssignment
+2023.10.25 23:10:10 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:10:11 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-11-100.md
+2023.10.25 23:10:12 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:10:13 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-13-057.md
+2023.10.25 23:10:13 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:10:14 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-14-248.md
+2023.10.25 23:10:14 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:10:16 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:10:18 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:10:20 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:10:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-22-063.md
+Oct 25, 2023 11:10:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-22-254.md
+2023.10.25 23:10:22 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:10:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-23-133.md
+Oct 25, 2023 11:10:23 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-23-533.md
+2023.10.25 23:10:24 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:10:25 WARN  Using indexes to guess the definition of ParsedAssignment
+2023.10.25 23:10:25 WARN  Using indexes to guess the definition of getAssignments
+2023.10.25 23:10:25 WARN  Using indexes to guess the definition of iDontWantToFail
+Oct 25, 2023 11:10:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-25-500.md
+2023.10.25 23:10:25 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:10:26 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:10:27 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:10:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-27-697.md
+Oct 25, 2023 11:10:28 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-28-039.md
+2023.10.25 23:10:28 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:10:29 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:10:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-29-714.md
+2023.10.25 23:10:30 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:10:29 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+Oct 25, 2023 11:10:31 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-31-668.md
+Oct 25, 2023 11:10:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-32-204.md
+Oct 25, 2023 11:10:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-32-426.md
+2023.10.25 23:10:33 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:10:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-33-741.md
+Oct 25, 2023 11:10:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-34-290.md
+Oct 25, 2023 11:10:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-34-813.md
+Oct 25, 2023 11:10:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-34-907.md
+2023.10.25 23:10:35 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:10:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-37-707.md
+Oct 25, 2023 11:10:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-39-062.md
+Oct 25, 2023 11:10:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-39-931.md
+2023.10.25 23:10:40 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:10:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-40-371.md
+2023.10.25 23:10:40 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:10:43 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:10:43 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:10:44 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+Oct 25, 2023 11:10:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-44-853.md
+Oct 25, 2023 11:10:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-46-357.md
+Oct 25, 2023 11:10:46 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-46-919.md
+Oct 25, 2023 11:10:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-47-678.md
+Oct 25, 2023 11:10:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-48-410.md
+Oct 25, 2023 11:10:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-49-352.md
+Oct 25, 2023 11:10:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-50-104.md
+2023.10.25 23:10:50 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:10:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-50-857.md
+Oct 25, 2023 11:10:51 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-51-347.md
+Oct 25, 2023 11:10:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-53-185.md
+Oct 25, 2023 11:10:53 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-53-600.md
+Oct 25, 2023 11:10:54 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-54-897.md
+2023.10.25 23:10:55 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:10:55 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:10:56 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-56-308.md
+2023.10.25 23:10:56 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:10:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-57-030.md
+Oct 25, 2023 11:10:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-57-783.md
+Oct 25, 2023 11:10:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-58-256.md
+Oct 25, 2023 11:10:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-10-58-608.md
+2023.10.25 23:10:59 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:11:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-00-471.md
+Oct 25, 2023 11:11:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-01-217.md
+Oct 25, 2023 11:11:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-01-437.md
+Oct 25, 2023 11:11:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-01-689.md
+Oct 25, 2023 11:11:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-01-757.md
+2023.10.25 23:11:02 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:11:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-02-974.md
+Oct 25, 2023 11:11:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-03-244.md
+Oct 25, 2023 11:11:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-03-599.md
+Oct 25, 2023 11:11:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-03-738.md
+Oct 25, 2023 11:11:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-03-881.md
+Oct 25, 2023 11:11:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-03-980.md
+Oct 25, 2023 11:11:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-04-149.md
+Oct 25, 2023 11:11:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-04-206.md
+Oct 25, 2023 11:11:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-04-466.md
+Oct 25, 2023 11:11:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-04-691.md
+Oct 25, 2023 11:11:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-04-738.md
+2023.10.25 23:11:05 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:11:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-05-394.md
+2023.10.25 23:11:05 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:11:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-06-007.md
+Oct 25, 2023 11:11:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-06-179.md
+Oct 25, 2023 11:11:06 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-06-460.md
+2023.10.25 23:11:06 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:11:07 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-07-974.md
+2023.10.25 23:11:08 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:11:08 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:11:09 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:11:09 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:11:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-10-767.md
+2023.10.25 23:11:12 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:11:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-16-705.md
+Oct 25, 2023 11:11:17 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-17-478.md
+Oct 25, 2023 11:11:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-18-449.md
+Oct 25, 2023 11:11:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-19-459.md
+Oct 25, 2023 11:11:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-21-217.md
+2023.10.25 23:11:21 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:11:22 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:11:23 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:11:25 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:11:26 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:11:26 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:11:26 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:11:27 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:11:28 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:11:29 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-29-347.md
+2023.10.25 23:11:29 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:11:30 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:11:30 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:11:32 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:11:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-33-349.md
+Oct 25, 2023 11:11:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-33-892.md
+2023.10.25 23:11:36 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:11:36 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:11:36 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-36-901.md
+2023.10.25 23:11:37 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:11:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-37-851.md
+2023.10.25 23:11:38 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:11:38 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:11:40 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+Oct 25, 2023 11:11:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-41-972.md
+Oct 25, 2023 11:11:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-43-096.md
+Oct 25, 2023 11:11:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-43-514.md
+Oct 25, 2023 11:11:43 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-43-644.md
+2023.10.25 23:11:44 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:11:44 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:11:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-48-453.md
+Oct 25, 2023 11:11:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-48-977.md
+Oct 25, 2023 11:11:49 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-49-791.md
+Oct 25, 2023 11:11:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-50-293.md
+Oct 25, 2023 11:11:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-50-523.md
+Oct 25, 2023 11:11:55 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-55-289.md
+2023.10.25 23:11:56 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:11:56 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:11:57 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:11:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-57-956.md
+Oct 25, 2023 11:11:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-58-519.md
+Oct 25, 2023 11:11:58 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-11-58-948.md
+2023.10.25 23:11:59 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:11:59 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:11:59 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:12:00 WARN  Using indexes to guess the definition of ParsedAssignment
+2023.10.25 23:12:02 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:12:02 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:12:24 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:12:34 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:12:35 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:12:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-12-35-485.md
+Oct 25, 2023 11:12:35 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-12-35-906.md
+2023.10.25 23:12:36 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:12:37 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:12:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-12-37-341.md
+2023.10.25 23:12:37 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:13:22 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:13:22 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+Oct 25, 2023 11:14:00 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-14-00-452.md
+Oct 25, 2023 11:14:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-14-01-274.md
+Oct 25, 2023 11:14:01 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-14-01-832.md
+Oct 25, 2023 11:14:02 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-14-02-876.md
+Oct 25, 2023 11:14:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-14-03-058.md
+Oct 25, 2023 11:14:03 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-14-03-707.md
+Oct 25, 2023 11:14:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-14-04-506.md
+Oct 25, 2023 11:14:04 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-14-04-762.md
+Oct 25, 2023 11:14:05 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-14-05-090.md
+2023.10.25 23:14:07 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Parser\Parsers\ParsedAssignment.java
+2023.10.25 23:14:07 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Parser/Parsers/ParsedAssignment.java. Output:
+
+Oct 25, 2023 11:14:39 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-14-39-443.md
+Oct 25, 2023 11:14:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-14-40-302.md
+Oct 25, 2023 11:14:47 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-14-47-209.md
+2023.10.25 23:14:49 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:14:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-14-50-193.md
+Oct 25, 2023 11:14:50 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-14-50-819.md
+2023.10.25 23:14:51 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:14:53 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:14:54 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:14:55 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:14:55 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1430
+2023.10.25 23:14:55 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:14:55 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:14:57 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:14:57 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-14-57-872.md
+2023.10.25 23:14:58 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:14:58 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:15:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-15-16-728.md
+Oct 25, 2023 11:15:48 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-15-48-264.md
+2023.10.25 23:15:49 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:15:49 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:15:49 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:16:16 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-16-16-587.md
+Oct 25, 2023 11:16:18 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-16-18-860.md
+2023.10.25 23:16:19 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Assignment.java. Output:
+
+Oct 25, 2023 11:16:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-16-19-485.md
+2023.10.25 23:16:19 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Assignment.java. Output:
+
+Oct 25, 2023 11:16:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-16-20-195.md
+Oct 25, 2023 11:16:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-16-20-566.md
+Oct 25, 2023 11:16:20 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-16-20-807.md
+Oct 25, 2023 11:16:21 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-16-21-177.md
+2023.10.25 23:16:22 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Assignment.java. Output:
+
+Oct 25, 2023 11:16:22 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-16-22-896.md
+2023.10.25 23:16:23 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Assignment.java. Output:
+
+Oct 25, 2023 11:16:24 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-16-24-326.md
+2023.10.25 23:16:24 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Assignment.java. Output:
+
+Oct 25, 2023 11:16:25 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-16-25-038.md
+2023.10.25 23:16:25 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Assignment.java
+2023.10.25 23:16:25 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Assignment.java. Output:
+
+Oct 25, 2023 11:16:32 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-16-32-741.md
+Oct 25, 2023 11:16:33 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-16-33-031.md
+Oct 25, 2023 11:16:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-16-34-170.md
+Oct 25, 2023 11:16:34 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-16-34-409.md
+Oct 25, 2023 11:16:35 PM org.eclipse.lsp4j.jsonrpc.RemoteEndpoint handleCancellation
+WARNING: Unmatched cancel notification for request id 1539
+Oct 25, 2023 11:16:37 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-16-37-368.md
+Oct 25, 2023 11:16:42 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-16-42-937.md
+Oct 25, 2023 11:16:44 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-16-44-902.md
+2023.10.25 23:16:48 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Assignment.java. Output:
+
+2023.10.25 23:16:48 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Assignment.java
+2023.10.25 23:16:48 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Assignment.java. Output:
+
+2023.10.25 23:16:49 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Assignment.java
+2023.10.25 23:16:49 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Assignment.java. Output:
+
+2023.10.25 23:17:14 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Assignment.java. Output:
+
+2023.10.25 23:17:14 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Assignment.java
+Oct 25, 2023 11:17:19 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-17-19-554.md
+Oct 25, 2023 11:17:40 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-17-40-884.md
+Oct 25, 2023 11:17:41 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-17-41-138.md
+2023.10.25 23:17:47 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:17:48 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+2023.10.25 23:17:48 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:18:08 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-18-08-073.md
+Oct 25, 2023 11:18:09 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-18-09-616.md
+2023.10.25 23:18:10 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:18:10 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-18-10-696.md
+2023.10.25 23:18:11 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+Oct 25, 2023 11:18:12 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-18-12-212.md
+2023.10.25 23:18:12 WARN  Running javac-semanticdb failed for file:///E:/UtilityFolders/Documents/.Useful%20Stuff/2023/s1/Comp%20Sci%20II/Week8Project/src/Main/Driver.java. Output:
+
+2023.10.25 23:18:12 WARN  no build target for: E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\src\Main\Driver.java
+Oct 25, 2023 11:18:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-18-15-304.md
+Oct 25, 2023 11:18:15 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-18-15-873.md
+Oct 25, 2023 11:18:27 PM scala.meta.internal.pc.CompilerAccess handleError
+SEVERE: A severe compiler error occurred, full details of the error can be found in the error report E:\UtilityFolders\Documents\.Useful Stuff\2023\s1\Comp Sci II\Week8Project\.metals\.reports\metals-full\2023-10-25\r_compiler-error_23-18-27-038.md
+2023.10.25 23:18:28 INFO  Shutting down server
+2023.10.25 23:18:28 INFO  shutting down Metals
+2023.10.25 23:18:28 INFO  Exiting server
