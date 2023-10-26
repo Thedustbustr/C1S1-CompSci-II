@@ -27,6 +27,6 @@ public final class Logging {
   * @param e Required exception that occured
   */
   public static void Error(String msg, Threads thread, Exception e) {
-    System.out.println("[FATAL/" + thread + "] " + msg + "\n" + e);
+    System.err.println("[FATAL/" + thread + "] " + msg + "\n" + e);
   }
 }
