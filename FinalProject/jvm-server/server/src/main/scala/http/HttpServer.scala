@@ -1,31 +1,35 @@
 package http
 
+import cats.data.OptionT
 import cats.effect._
 import cats.syntax.all._
-import org.http4s._, org.http4s.dsl.io._, org.http4s.implicits._
-import org.http4s.ember.server.EmberServerBuilder
 import com.comcast.ip4s.ipv4
 import com.comcast.ip4s.port
-import java.util.UUID
-import org.http4s.circe.*
-import io.circe.syntax.*
-import io.circe.*
-import game.universegen.StarSystemManager
-import org.http4s.server.middleware.ErrorHandling
-import org.http4s.server.middleware.ErrorAction
-import cats.data.OptionT
 import game.physics.*
+import game.universegen.StarSystemManager
+import http.json.*
+import io.circe.*
+import io.circe.syntax.*
+import org.http4s._
+import org.http4s.circe.*
+import org.http4s.dsl.io._
+import org.http4s.ember.server.EmberServerBuilder
+import org.http4s.implicits._
+import org.http4s.server.middleware.ErrorAction
+import org.http4s.server.middleware.ErrorHandling
+
+import java.util.UUID
 
 object HttpServer {
 
   implicit val uuidEncoder: Encoder[UUID] = Encoder.encodeString.contramap(_.toString())
 
   val routes = HttpRoutes.of[IO] {
-    case GET -> Root / "stars"                                                         => showAllStars
+    case GET -> Root / "stars" => showAllStars
     case GET -> Root / "stars" / UUIDVar(starId)                                       => showStar(starId)
     case GET -> Root / "stars" / UUIDVar(starId) / "satellites"                        => showAllSatellitesOfStar(starId)
     case GET -> Root / "stars" / UUIDVar(starId) / "satellites" / UUIDVar(satelliteId) => showSatellite(starId, satelliteId)
-    case _                                                                             => IO(Response(Status.NotFound))
+    case _ => IO(Response(Status.NotFound))
   }
 
   val withErrorLogging = ErrorHandling.Recover.total(
@@ -55,22 +59,27 @@ object HttpServer {
     .build
 
   private def showAllStars: IO[Response[IO]] = {
-    Ok(StarSystemManager.LoadedStarSystems.asJson)
+    Ok(StarSystemManager.LoadedStarSystems.map(toJsonStar).asJson)
   }
 
   private def showStar(id: UUID): IO[Response[IO]] = {
-    Ok(StarSystemManager.LoadedStarSystems.find(_.physicsObject.networkID == id).asJson)
+    Ok(StarSystemManager.LoadedStarSystems.find(_.networkID == id).map(toJsonSatellite).asJson)
   }
 
   private def showAllSatellitesOfStar(id: UUID): IO[Response[IO]] = {
-    Ok(StarSystemManager.LoadedStarSystems.find(_.physicsObject.networkID == id).map(_.satellites).asJson)
+    Ok(StarSystemManager.LoadedStarSystems.find(_.networkID == id).map(_.satellites.map(toJsonSatellite)).asJson)
   }
 
   private def showSatellite(starId: UUID, satelliteId: UUID): IO[Response[IO]] = {
     val found =
       for {
-        star <- StarSystemManager.LoadedStarSystems.find(_.physicsObject.networkID == starId)
-        sat <- star.physicsObject.satellites.find(_.networkID == satelliteId)
+        star <- StarSystemManager.LoadedStarSystems.find(_.networkID == starId)
+        sat <- star.satellites.toList.map(toJsonSatellite).find { p =>
+          p match {
+            case p: JsonPlanet => (p.networkID == satelliteId)
+            case s: JsonStar   => (s.networkID == satelliteId)
+          }
+        }
       } yield Ok(sat.asJson)
 
     found.getOrElse(NotFound())

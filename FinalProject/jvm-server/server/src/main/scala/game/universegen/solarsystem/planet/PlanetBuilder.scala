@@ -1,24 +1,27 @@
 package game.universegen.solarsystem.planet
 
 import game.physics.PhysicsObject
-import util.math.Vector3
-import game.universegen.solarsystem.planet.PlanetGenerationData.PlanetType
 import game.physics.*
-import util.Color
-import scala.util.Random
-import scala.collection.immutable.HashMap
 import game.universegen.solarsystem.planet.PlanetGenerationData.GasProperties
+import game.universegen.solarsystem.planet.PlanetGenerationData.PlanetType
+import game.universegen.solarsystem.star.Star
+import util.Color
+import util.math.Vector3
+
 import java.util.UUID
+import scala.collection.immutable.HashMap
+import scala.collection.mutable.ListBuffer
+import scala.util.Random
 
 class PlanetBuilder() {
   /* Inital Variable */
-  var centralOrbitalBody: Option[PhysicsObject] = None
+  var centralOrbitalBody: Option[Star] = None
   var position: Option[Vector3] = None
   var typ: Option[PlanetType] = None
 
   //  Dictionary<string, (int[], GasProperties)> AtmosphericProperties { get; private set; }
 
-  def setCentralOrbitalBody(centralOrbitalBody: PhysicsObject) = {
+  def setCentralOrbitalBody(centralOrbitalBody: Star) = {
     this.centralOrbitalBody = Some(centralOrbitalBody)
     this
   }
@@ -53,24 +56,22 @@ class PlanetBuilder() {
       val color = Color(0, 0, 255);
 
       Planet(
+        typ = t,
         density = density,
         orbitalPeriod = orbitalPeriod,
-        physicsObject = PhysicsObject(
-          networkID = UUID.randomUUID(), // <-- tmp
-          locked = true,
-          typ = PhysicsObjectType.Planet,
-          color = color,
-          centralObject = Some(cob),
-          orbitalParameters = Some(orbitalParameters),
-          velocity = velocity,
-          position = pos,
-          mass = mass,
-          radius = radius,
-          gravity = gravity,
-          minimumSafeDistanceToGenerate = minimumSafeDistanceToGenerate,
-          maximumGravitationalReach = maximumGravitationalReach,
-          satellites = Array.empty
-        )
+        centralOrbitalBody = cob,
+        orbitalParameters = orbitalParameters,
+        networkID = UUID.randomUUID(), // <-- tmp
+        // locked = true,
+        // typ = PhysicsObjectType.Planet,
+        color = color,
+        velocity = velocity,
+        position = pos,
+        mass = mass,
+        radius = radius,
+        gravity = gravity,
+        minimumSafeDistanceToGenerate = minimumSafeDistanceToGenerate,
+        maximumGravitationalReach = maximumGravitationalReach
       )
     }
 

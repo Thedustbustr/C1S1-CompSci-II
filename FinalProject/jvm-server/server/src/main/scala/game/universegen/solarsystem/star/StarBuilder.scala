@@ -1,12 +1,13 @@
 package game.universegen.solarsystem.star
 
-import game.physics.*
-import util.math.Vector3
-import scala.util.Random
 import game.physics.UniversalLaws
+import game.physics.*
 import util.Color
-import java.util.UUID
 import util.extensions.*
+import util.math.Vector3
+
+import java.util.UUID
+import scala.util.Random
 
 enum StarType(val name: String) {
   case Star extends StarType("Star")
@@ -61,22 +62,18 @@ object StarBuilder {
       starType = starType,
       temperature = temperature,
       luminosity = luminosity,
-      physicsObject = PhysicsObject(
-        networkID = UUID.randomUUID(), // <-- tmp
-        locked = true,
-        typ = PhysicsObjectType.Star,
-        color = color,
-        velocity = velocity, // Is constant (Well at least magnitude)
-        position = position,
-        mass = mass, // In kg
-        radius = radius, // In m
-        gravity = gravity, // In m/s/s
-        minimumSafeDistanceToGenerate = minimumSafeDistanceToGenerate, // In m
-        maximumGravitationalReach = maximumGravitationalReach, // In m
-
-        satellites = Array.empty
-      )
-    ).Initialize();
+      networkID = UUID.randomUUID(), // <-- tmp
+      // locked = true,
+      // typ = PhysicsObjectType.Star,
+      color = color,
+      velocity = velocity, // Is constant (Well at least magnitude)
+      position = position,
+      mass = mass, // In kg
+      radius = radius, // In m
+      gravity = gravity, // In m/s/s
+      minimumSafeDistanceToGenerate = minimumSafeDistanceToGenerate, // In m
+      maximumGravitationalReach = maximumGravitationalReach // In m
+    ).Initialize()
   }
 
   /* //////////////////////////////////////////////////////////////////////////// */

@@ -1,15 +1,17 @@
 package game.universegen.solarsystem.planet
 
-import game.universegen.solarsystem.star.*
-import scala.util.Random
-import scala.collection.mutable.ArrayBuffer
-import game.physics.UniversalLaws
 import cats.instances.boolean
+import game.physics.UniversalLaws
+import game.universegen.solarsystem.star.*
 import util.math.Vector3
 
+import scala.collection.mutable.ArrayBuffer
+import scala.collection.mutable.ListBuffer
+import scala.util.Random
+
 object PlanetGenerator {
-  def generatePlanets(star: Star): Array[Planet] = {
-    val generatedPlanets = ArrayBuffer.empty[Planet];
+  def generatePlanets(star: Star): ListBuffer[Planet] = {
+    val generatedPlanets = ListBuffer.empty[Planet];
 
     val minDistance: Double = star.scaledMinimumSafeDistanceToGenerate;
     val maxDistance: Double = star.scaledMaximumGravitationalReach;
@@ -25,7 +27,7 @@ object PlanetGenerator {
       currentDistance += incrementDistance;
     }
 
-    return generatedPlanets.toArray;
+    generatedPlanets
   }
 
   /* //////////////////////////////////////////////////////////////////////////// */
@@ -33,7 +35,7 @@ object PlanetGenerator {
 
   final case class GeneratedPlanet(planet: Planet, distance: Double)
 
-  private def attemptGenerationOfPlanet(generatedPlanets: ArrayBuffer[Planet], star: Star, distacePercentage: Double, currentDistance: Double, incrementDistance: Double = 0): Double = {
+  private def attemptGenerationOfPlanet(generatedPlanets: ListBuffer[Planet], star: Star, distacePercentage: Double, currentDistance: Double, incrementDistance: Double = 0): Double = {
 
     def generatePlanet(fn: (Star, Double, Double, Double) => Option[GeneratedPlanet]): Option[GeneratedPlanet] = {
       val generated = fn(star, distacePercentage, currentDistance, incrementDistance);
@@ -80,7 +82,7 @@ object PlanetGenerator {
   private def attemptGenerationOfRockyPlanet(star: Star, distacePercentage: Double, currentDistance: Double, incrementDistance: Double): Option[GeneratedPlanet] = {
     if (canGenerateRockyPlanet(distacePercentage) == true) {
       val planet: Planet = PlanetBuilder()
-        .setCentralOrbitalBody(star.physicsObject)
+        .setCentralOrbitalBody(star)
         .setPostion(Vector3(currentDistance * UniversalLaws.SCALE_FACTOR, 0, 0))
         .setType(PlanetGenerationData.PlanetType.Rocky)
         .build();
@@ -115,7 +117,7 @@ object PlanetGenerator {
   private def attemptGenerationOfGasPlanet(star: Star, distacePercentage: Double, currentDistance: Double, incrementDistance: Double): Option[GeneratedPlanet] = {
     if (canGenerateGasPlanet(distacePercentage) == true) {
       val planet: Planet = PlanetBuilder()
-        .setCentralOrbitalBody(star.physicsObject)
+        .setCentralOrbitalBody(star)
         .setPostion(Vector3(currentDistance * UniversalLaws.SCALE_FACTOR, 0, 0))
         .setType(PlanetGenerationData.PlanetType.Gas)
         .build();

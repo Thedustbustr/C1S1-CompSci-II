@@ -1,5 +1,5 @@
-import util.extensions.*
 import game.universegen.StarSystemManager
+import util.extensions.*
 
 object ServerRuntime {
   // Default 60x speed 20tps

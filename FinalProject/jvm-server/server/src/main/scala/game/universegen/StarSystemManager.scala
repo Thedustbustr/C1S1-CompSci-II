@@ -1,7 +1,8 @@
 package game.universegen
 
-import scala.collection.mutable.ListBuffer
 import game.universegen.solarsystem.star.*
+
+import scala.collection.mutable.ListBuffer
 
 object StarSystemManager {
   var SpawnSystem: Star = _

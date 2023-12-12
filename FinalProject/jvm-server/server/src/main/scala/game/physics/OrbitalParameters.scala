@@ -1,12 +1,11 @@
 package game.physics
 
-import util.extensions.*
-import util.math.Vector3
-
 import io.circe.Encoder
 import io.circe.*
 import io.circe.generic.semiauto.*
 import io.circe.syntax.*
+import util.extensions.*
+import util.math.Vector3
 
 final case class OrbitalParameters(
     µ: Double,
