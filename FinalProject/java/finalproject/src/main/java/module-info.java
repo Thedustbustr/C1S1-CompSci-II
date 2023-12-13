@@ -1,7 +1,14 @@
-module com.example {
-    requires javafx.controls;
-    requires javafx.fxml;
+module me.thedustbuster {
+  requires javafx.controls;
+  requires javafx.fxml;
+  requires com.google.gson;
 
-    opens com.example to javafx.fxml;
-    exports com.example;
+  // https://stackoverflow.com/questions/72769462/failed-making-field-property-accessible-either-change-its-visibility-or-write
+  opens me.thedustbuster.jsonmodels to com.google.gson;
+  opens me.thedustbuster.util.math to com.google.gson;
+  opens me.thedustbuster.util to com.google.gson;
+
+  opens me.thedustbuster to javafx.fxml;
+
+  exports me.thedustbuster;
 }

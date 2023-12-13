@@ -25,10 +25,11 @@ object HttpServer {
   implicit val uuidEncoder: Encoder[UUID] = Encoder.encodeString.contramap(_.toString())
 
   val routes = HttpRoutes.of[IO] {
-    case GET -> Root / "stars" => showAllStars
+    case GET -> Root / "stars"                                                         => showAllStars
     case GET -> Root / "stars" / UUIDVar(starId)                                       => showStar(starId)
     case GET -> Root / "stars" / UUIDVar(starId) / "satellites"                        => showAllSatellitesOfStar(starId)
     case GET -> Root / "stars" / UUIDVar(starId) / "satellites" / UUIDVar(satelliteId) => showSatellite(starId, satelliteId)
+    case GET -> Root => Ok("hi")
     case _ => IO(Response(Status.NotFound))
   }
 

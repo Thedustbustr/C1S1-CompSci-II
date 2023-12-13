@@ -61,16 +61,16 @@ def toJsonStar(s: Star): JsonStar = JsonStar(
   velocity = s.velocity,
 
   /*CelestialBody*/
+  radius = s.radius,
   gravity = s.gravity,
+  density = s.density,
   maximumGravitationalReach = s.maximumGravitationalReach,
   minimumSafeDistanceToGenerate = s.minimumSafeDistanceToGenerate,
-  radius = s.radius,
   satellites = s.satellites.toList.map(toJsonSatellite)
 )
 
 def toJsonPlanet(p: Planet): JsonPlanet = JsonPlanet(
   typ = p.typ,
-  density = p.density,
   orbitalPeriod = p.orbitalPeriod,
   orbitalParameters = p.orbitalParameters,
   // Dictionary<string, (int[], GasProperties)> AtmosphericProperties;
@@ -85,10 +85,11 @@ def toJsonPlanet(p: Planet): JsonPlanet = JsonPlanet(
   velocity = p.velocity,
 
   /*CelestialBody*/
+  radius = p.radius,
   gravity = p.gravity,
+  density = p.density,
   maximumGravitationalReach = p.maximumGravitationalReach,
   minimumSafeDistanceToGenerate = p.minimumSafeDistanceToGenerate,
-  radius = p.radius,
   satellites = p.satellites.toList.map(toJsonSatellite)
 )
 
@@ -121,16 +122,16 @@ final case class JsonStar(
     velocity: util.math.Vector3,
 
     /*CelestialBody*/
+    radius: Double,
     gravity: Double,
+    density: Double,
     maximumGravitationalReach: Double,
     minimumSafeDistanceToGenerate: Double,
-    radius: Double,
     satellites: List[JsonSatellite]
 )
 
 final case class JsonPlanet(
     typ: PlanetType,
-    density: Double,
     orbitalPeriod: Double,
     orbitalParameters: OrbitalParameters,
     // Dictionary<string, (int[], GasProperties)> AtmosphericProperties;
@@ -145,9 +146,10 @@ final case class JsonPlanet(
     velocity: util.math.Vector3,
 
     /*CelestialBody*/
+    radius: Double,
     gravity: Double,
+    density: Double,
     maximumGravitationalReach: Double,
     minimumSafeDistanceToGenerate: Double,
-    radius: Double,
     satellites: List[JsonSatellite]
 )

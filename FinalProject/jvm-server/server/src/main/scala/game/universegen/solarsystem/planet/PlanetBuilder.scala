@@ -53,7 +53,11 @@ class PlanetBuilder() {
       val orbitalParameters = OrbitalParameters.calculateOrbitalParameters(velocity, pos, mass, cob);
       val minimumSafeDistanceToGenerate = calculateMinimumSafeDistanceToGenerate(radius);
       val maximumGravitationalReach = calculateMaximumGravitationalReach(mass, orbitalParameters, cob);
-      val color = Color(0, 0, 255);
+
+      val color = t match {
+        case PlanetType.Gas   => Color(114, 244, 144)
+        case PlanetType.Rocky => Color(100, 100, 100)
+      }
 
       Planet(
         typ = t,
@@ -98,22 +102,6 @@ class PlanetBuilder() {
 
   private def calcualteOrbitalPeriod(radius: Double, massCentral: Double): Double = math.sqrt(math.pow(radius, 3) * ((4 * math.pow(math.Pi, 2)) / (UniversalLaws.GRAVITATIONAL_CONSTANT * massCentral)))
 
-// private def GenerateLineRenderer : LineRenderer = { //(GameObject model, Color color) {
-//     val line : LineRenderer =model.AddComponent[LineRenderer]();
-//     line.loop = true;
-
-//     line.material = MaterialGenerator.GenerateMaterial(color, transparent: true, shader: "HDRP/Unlit");
-//     line.generateLightingData = false;
-//     line.startColor = color;
-//     line.endColor = color / 2;
-//     line.startWidth = 5;
-//     line.endWidth = 5;
-
-//     line.enabled = false;
-
-//     return line;
-// }
-
   private def calculateClass(typ: PlanetType): Int = {
     val random: Int = Random.between(1, 101)
 
@@ -134,9 +122,6 @@ class PlanetBuilder() {
       .getOrElse(
         throw new RuntimeException("OH GOD WRONG CLASS NO FIND\nPlanet Type: " + planetClass)
       )
-    // if (planetClass == -1) {
-    //     throw new ErrorHandling.CelestialClassInvalid(planetClass, ErrorHandling.CelestialBodyType.Planet);
-    // }
   }
 
   private def calculateMass(typ: PlanetType, planetClass: Int): Double = {

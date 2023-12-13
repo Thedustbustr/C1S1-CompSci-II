@@ -41,21 +41,13 @@ object StarBuilder {
     val minimumSafeDistanceToGenerate = calculateMinimumSafeDistanceToGenerate(radius);
     val maximumGravitationalReach = calculateMaximumGravitationalReach(mass);
 
-    val characteristics = calculateStarDeath(StarGenerationData.DeathProbability(starClass), mass, radius);
-    val starType = "Class " + displayStarClass + " " + characteristics._1.name;
-    val postRadius = characteristics._2;
+    val (typ, postRadius, color) = calculateStarDeath(StarGenerationData.DeathProbability(starClass), mass, radius, calculateColor(temperature));
+    val starType = "Class " + displayStarClass + " " + typ.name;
 
-    val gravity = calculateGravity(mass, radius);
+    val gravity = calculateGravity(mass, postRadius);
     val position = Vector3(0, 0, 0);
     val velocity = Vector3(0, 0, 0);
-
-    val color = calculateColor(temperature);
-
-    // this.gameObject = CalculateProperties(
-    //     luminosity, radius, mass, color,
-    //     /* Sphere */
-    //     SphereGenerator.GenerateSphere(radius / UniversalLaws.ScaleFactor, position, starType, /* Material --> */ MaterialGenerator.GenerateMaterial(color, emissive: true))
-    // );
+    val density = calcualteDensity(mass, postRadius)
 
     Star(
       starClass = displayStarClass,
@@ -69,8 +61,9 @@ object StarBuilder {
       velocity = velocity, // Is constant (Well at least magnitude)
       position = position,
       mass = mass, // In kg
-      radius = radius, // In m
+      radius = postRadius, // In m
       gravity = gravity, // In m/s/s
+      density = density,
       minimumSafeDistanceToGenerate = minimumSafeDistanceToGenerate, // In m
       maximumGravitationalReach = maximumGravitationalReach // In m
     ).Initialize()
@@ -107,20 +100,7 @@ object StarBuilder {
 
   private def calculateGravity(mass: Double, radius: Double): Double = UniversalLaws.GRAVITATIONAL_CONSTANT * ((mass) / math.pow((radius), 2))
 
-  // private GameObject CalculateProperties(double luminosity, double radius, double mass, Color color, GameObject model) {
-  //     Light light = model.AddComponent<Light>();
-  //     light.color = new Color((color.r / 255), (color.g / 255), (color.b / 255), color.a);
-  //     light.bounceIntensity = 0;
-
-  //     HDAdditionalLightData lightData = model.AddHDLight(HDLightTypeAndShape.Point);
-  //     lightData.EnableColorTemperature(false);
-  //     lightData.fadeDistance = 40000;
-  //     lightData.intensity = (float)1e10;
-  //     lightData.shapeRadius = 10000;
-  //     lightData.range = 1000000;
-
-  //     return model;
-  // }
+  private def calcualteDensity(mass: Double, radius: Double): Double = { mass / ((4 / 3d) * math.Pi * math.pow(radius, 3)) }
 
   private def calculateColor(temperature: Int): Color = {
     def getGradient(colorIndex: Int) = {
@@ -149,13 +129,17 @@ object StarBuilder {
     maybeColor.getOrElse(hottestTemperature)
   }
 
-  private def calculateStarDeath(probability: Int, mass: Double, radius: Double): (StarType, Double) = {
+  private def calculateStarDeath(probability: Int, mass: Double, radius: Double, color: Color): (StarType, Double, Color) = {
     def calculateWhiteDwarfSize(radius: Double): Double = {
       radius * 0.009; // Earth radius divided by the Suns
     }
 
-    def calculateNeutronStarSize(mass: Double): Double = {
-      mass * 10; // The size roughly is 10 times the mass in solar masses
+    def calculateNeutronStarSize(radius: Double): Double = {
+      /*
+      "Researchers estimate that a neutron star with a mass 1.4 times that of the sun will have a radius between 8 and 16 kilometers" (https://www.symmetrymagazine.org/article/how-big-is-a-neutron-star?language_content_entity=und)"
+      R = M^0.8
+       */
+      radius * ((Random.between(8, 17) * 1000) / (math.pow(1.4, 0.8) * UniversalLaws.SOLAR_RADII_IN_METERS))
     }
 
     def calculateBlackHoleSize(mass: Double): Double = {
@@ -165,19 +149,19 @@ object StarBuilder {
     /* //////////////////////////////////////////////////////////////////////////// */
 
     if (Random.between(1, 101) > probability) {
-      (StarType.Star, radius)
+      (StarType.Star, radius, color)
     } else {
       mass match {
         case m if (m <= 10) =>
-          (StarType.WhiteDwarf, calculateWhiteDwarfSize(radius))
+          (StarType.WhiteDwarf, calculateWhiteDwarfSize(radius), Color(229, 249, 255, 1))
         case m if (m <= 15 && Random.nextBoolean) =>
-          (StarType.WhiteDwarf, calculateWhiteDwarfSize(radius))
+          (StarType.WhiteDwarf, calculateWhiteDwarfSize(radius), Color(229, 249, 255, 1))
         case m if (m <= 20) =>
-          (StarType.NeutronStar, calculateNeutronStarSize(mass))
+          (StarType.NeutronStar, calculateNeutronStarSize(radius), Color(239, 226, 255, 1))
         case m if (m <= 25 && Random.nextBoolean) =>
-          (StarType.NeutronStar, calculateNeutronStarSize(mass))
+          (StarType.NeutronStar, calculateNeutronStarSize(radius), Color(239, 226, 255, 1))
         case _ =>
-          (StarType.BlackHole, calculateBlackHoleSize(mass))
+          (StarType.BlackHole, calculateBlackHoleSize(mass), Color(0, 0, 0, 1))
       }
     }
   }

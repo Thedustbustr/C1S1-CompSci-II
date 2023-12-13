@@ -21,16 +21,17 @@ final case class Star(
     networkID: java.util.UUID,
 
     /* PhysicsObject */
-    color: util.Color,
+    color: Color,
     var mass: Double,
-    var position: util.math.Vector3,
-    var velocity: util.math.Vector3,
+    var position: Vector3,
+    var velocity: Vector3,
 
     /*CelestialBody*/
     gravity: Double,
+    radius: Double,
+    density: Double,
     maximumGravitationalReach: Double,
     minimumSafeDistanceToGenerate: Double,
-    radius: Double,
     satellites: ListBuffer[PhysicsObject] = ListBuffer.empty
 ) extends NetworkObject,
       PhysicsObject,

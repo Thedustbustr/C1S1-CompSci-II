@@ -11,7 +11,6 @@ import scala.collection.mutable.ListBuffer
 
 final case class Planet(
     typ: PlanetType,
-    density: Double,
     orbitalPeriod: Double,
     centralOrbitalBody: CelestialBody,
     orbitalParameters: OrbitalParameters,
@@ -28,9 +27,10 @@ final case class Planet(
 
     /*CelestialBody*/
     gravity: Double,
+    radius: Double,
+    density: Double,
     maximumGravitationalReach: Double,
     minimumSafeDistanceToGenerate: Double,
-    radius: Double,
     satellites: ListBuffer[PhysicsObject] = ListBuffer.empty
 ) extends NetworkObject,
       PhysicsObject,

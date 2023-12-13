@@ -5,6 +5,7 @@ import scala.collection.mutable.ListBuffer
 trait CelestialBody {
   val gravity: Double
   val radius: Double
+  val density: Double
   val minimumSafeDistanceToGenerate: Double
   val maximumGravitationalReach: Double
 

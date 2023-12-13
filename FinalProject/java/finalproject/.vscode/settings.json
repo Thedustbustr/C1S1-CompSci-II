@@ -1,0 +1,11 @@
+{
+  "java.configuration.updateBuildConfiguration": "interactive",
+  "files.watcherExclude": {
+    "**/target": true
+  },
+  "java.format.settings.url": ".vscode/eclipse-java-google-style.xml",
+  "[java]": {
+    "editor.tabSize": 2,
+    "editor.detectIndentation": false
+  }
+}

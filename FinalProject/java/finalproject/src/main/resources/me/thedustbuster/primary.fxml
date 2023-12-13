@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.text.Font?>
+
+<VBox alignment="CENTER" prefHeight="440.0" prefWidth="885.0" spacing="20.0" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="me.thedustbuster.PrimaryController">
+   <children>
+      <Label fx:id="connectionLabel" alignment="CENTER" prefHeight="35.0" prefWidth="1000.0" text="API Server Address: N/A" textAlignment="CENTER">
+         <font>
+            <Font name="Comic Sans MS Bold" size="24.0" />
+         </font></Label>
+      <Label fx:id="nameLabel" text="N/A">
+         <font>
+            <Font name="Comic Sans MS" size="20.0" />
+         </font>
+      </Label>
+      <Label text="General Properties">
+         <font>
+            <Font name="Comic Sans MS" size="16.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" prefHeight="27.0" prefWidth="495.0" spacing="10.0">
+         <children>
+            <Label fx:id="densityLabel" text="Desnity: N/A">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="orbitalPeriodLabel" text="Orbital Period: N/A">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="velocityLabel" text="Velocity: N/A">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="positonLabel" text="Position: N/A">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="massLabel" text="Mass: N/A">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="radiusLabel" text="Radius: N/A">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="gravityLabel" text="Surface Gravity: N/A">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Label text="Orbital Parameters">
+         <font>
+            <Font name="Comic Sans MS" size="16.0" />
+         </font>
+      </Label>
+      <HBox alignment="CENTER" prefHeight="20.0" prefWidth="845.0" spacing="10.0">
+         <children>
+            <Label fx:id="muLabel" text="µ: N/A">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="semiMajorLabel" text="Semi-Major Axis: N/A">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="semiMinorLabel" text="Semi Minor Axis: N/A">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="apoapsisLabel" text="Apoapsis: N/A">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="periapsisLabel" text="Periapsis: N/A">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="eccentrictyLabel" text="Eccentricity: N/A">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="inclinationLabel" text="Inclination: N/A">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <HBox alignment="CENTER" prefHeight="22.0" prefWidth="845.0" spacing="10.0">
+         <children>
+            <Label fx:id="argumentOfPeriapsisLabel" text="Argument Of Periapsis: N/A">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="longitudeOfTheAcendingNodeLabel" text="Longitude Of The Ascending Node: N/A">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Label>
+            <Label fx:id="specificAngularMomentumLabel" text="Specific Angular Momentum: N/A">
+               <font>
+                  <Font name="Comic Sans MS" size="12.0" />
+               </font>
+            </Label>
+         </children>
+      </HBox>
+      <Circle fx:id="colorCircle" fill="DODGERBLUE" radius="100.0" stroke="BLACK" strokeType="INSIDE" />
+      <Button fx:id="dataButton" onAction="#nextData" text="Display 1st Body Data" />
+   </children>
+   <padding>
+      <Insets bottom="20.0" left="20.0" right="20.0" top="20.0" />
+   </padding>
+</VBox>
