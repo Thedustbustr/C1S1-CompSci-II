@@ -13,6 +13,9 @@ import me.thedustbuster.api.ApiController;
 import me.thedustbuster.jsonmodels.Planet;
 import me.thedustbuster.jsonmodels.Star;
 
+/**
+ * Controller for the primary scene
+ */
 public class PrimaryController implements Initializable {
   private ArrayList<Star> stars;
 
@@ -82,11 +85,20 @@ public class PrimaryController implements Initializable {
   @FXML
   private Button dataButton;
 
+  /**
+   * Initalizes the scene 
+   * @param location
+   * @param resources
+   */
   @Override
   public void initialize(URL location, ResourceBundle resources) {
     this.connectionLabel.setText("API Server Address: " + ApiController.instance().getURL());
   }
 
+  /** 
+   * Displays the next body's data ordering from the star -> farthest planet
+   * @throws Exception
+   */
   @FXML
   private void nextData() throws Exception {
     if (this.stars == null) {
@@ -113,6 +125,11 @@ public class PrimaryController implements Initializable {
     dataButton.setDisable(false);
   }
 
+  /** 
+   * Gets the tense of the counter
+   * @param index The counter
+   * @return String The tense
+   */
   private String getTense(int index) {
     switch (index) {
       case 1:
@@ -126,6 +143,10 @@ public class PrimaryController implements Initializable {
     }
   }
 
+  /** 
+   * Sets all fields based on star data
+   * @param s The star
+   */
   private void setStarData(Star s) {
     this.nameLabel.setText("" + s.getStarType());
 
@@ -163,9 +184,14 @@ public class PrimaryController implements Initializable {
 
     this.specificAngularMomentumLabel.setText("Specific Angular Momentum: N/A");
 
-    this.colorCircle.setFill(new Color(s.getColor().r() / 255f, s.getColor().g() / 255f, s.getColor().b() / 255f, s.getColor().a()));
+    this.colorCircle.setFill(
+        new Color(s.getColor().r() / 255f, s.getColor().g() / 255f, s.getColor().b() / 255f, s.getColor().a()));
   }
 
+  /** 
+   * Sets all fields based on planet data
+   * @param p The planet
+   */
   private void setPlanetData(Planet p) {
     this.nameLabel.setText(p.getTyp() + " Planet");
 
@@ -199,10 +225,13 @@ public class PrimaryController implements Initializable {
 
     this.argumentOfPeriapsisLabel.setText("Argument Of Periapsis: " + p.getOrbitalParameters().argumentOfPeriapsis());
 
-    this.longitudeOfTheAcendingNodeLabel.setText("Longitude Of The Acending Node: " + p.getOrbitalParameters().longitudeOfTheAscendingNode());
+    this.longitudeOfTheAcendingNodeLabel
+        .setText("Longitude Of The Acending Node: " + p.getOrbitalParameters().longitudeOfTheAscendingNode());
 
-    this.specificAngularMomentumLabel.setText("Specific Angular Momentum: " + p.getOrbitalParameters().specificAngularMomentum());
+    this.specificAngularMomentumLabel
+        .setText("Specific Angular Momentum: " + p.getOrbitalParameters().specificAngularMomentum());
 
-    this.colorCircle.setFill(new Color(p.getColor().r() / 255f, p.getColor().g() / 255f, p.getColor().b() / 255f, p.getColor().a()));
+    this.colorCircle.setFill(
+        new Color(p.getColor().r() / 255f, p.getColor().g() / 255f, p.getColor().b() / 255f, p.getColor().a()));
   }
 }

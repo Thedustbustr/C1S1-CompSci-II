@@ -11,23 +11,42 @@ import com.google.gson.Gson;
 import com.google.gson.reflect.TypeToken;
 import me.thedustbuster.jsonmodels.Star;
 
+/**
+ * Controls all things api
+ */
 public class ApiController {
-  private ApiController() {}
+  private ApiController() {
+  }
 
   private static ApiController _instance = new ApiController();
 
+  /** 
+   * @return ApiController
+   */
   public static ApiController instance() {
     return _instance;
   }
 
   private String url;
 
+  /** 
+   * @return String
+   */
   public String getURL() {
     return this.url;
   }
 
+  /** 
+   * @param _url
+   * @return Boolean
+   */
   /* ---------------------------------------------------------------------------- */
 
+  /**
+   * Inital handshake
+   * @param _url The url to connect too
+   * @return If the url is valid
+   */
   public Boolean connect(String _url) {
     try {
       URI uri = new URI(_url);
@@ -46,6 +65,11 @@ public class ApiController {
     }
   }
 
+  /** 
+   * Makes a call to the api
+   * @param connection The http connection to the api server
+   * @return String The response
+   */
   public String apiCall(HttpURLConnection connection) {
     try {
       connection.setRequestMethod("GET");
@@ -74,6 +98,10 @@ public class ApiController {
     }
   }
 
+  /** 
+   * Requests all stars from the api server
+   * @return ArrayList<Star> The list of stars returned
+   */
   public ArrayList<Star> requestAllStars() {
     try {
       URI uri = new URI(this.url + "/stars");
@@ -82,7 +110,8 @@ public class ApiController {
       String response = apiCall((HttpURLConnection) u.openConnection());
 
       //https://stackoverflow.com/questions/5554217/deserialize-a-listt-object-with-gson
-      Type listType = new TypeToken<ArrayList<Star>>() {}.getType();
+      Type listType = new TypeToken<ArrayList<Star>>() {
+      }.getType();
       return new Gson().fromJson(response, listType);
     } catch (Exception e) {
       System.err.println("[ERR] " + e);
@@ -90,6 +119,10 @@ public class ApiController {
     }
   }
 
+  /** 
+   * Does all required actions to safely disconnect from the api server
+   * @param connection The connection to the api server
+   */
   public void disconnect(HttpURLConnection connection) {
     try {
       connection.disconnect();

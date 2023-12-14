@@ -12,6 +12,9 @@ import javafx.scene.control.Label;
 import javafx.scene.control.TextField;
 import me.thedustbuster.api.ApiController;
 
+/**
+ * Controller for the connection scene
+ */
 public class ConnectController implements Initializable {
   @FXML
   private Label statusLabel;
@@ -25,20 +28,34 @@ public class ConnectController implements Initializable {
   @FXML
   private Button connectButton;
 
+  /** 
+   * Initalizes the scene
+   * @param location
+   * @param resources
+   */
   @Override
   public void initialize(URL location, ResourceBundle resources) {
     httpMethod.getItems().removeAll(httpMethod.getItems());
     httpMethod.setItems(FXCollections.observableArrayList("http://"));
     httpMethod.setValue(ConfigManager.config.getProperty("httpMethod") + "://");
 
-    serverAddressField.setText(ConfigManager.config.getProperty("address") + ":" + ConfigManager.config.getProperty("port"));
+    serverAddressField
+        .setText(ConfigManager.config.getProperty("address") + ":" + ConfigManager.config.getProperty("port"));
   }
 
+  /** 
+   * Updates the statusText field
+   * @param text The new text to be updated to
+   */
   @FXML
   public void updateStatusText(String text) {
     statusLabel.setText(text);
   }
 
+  /** 
+   * Connects to api server
+   * @throws Exception
+   */
   @FXML
   private void connect() throws Exception {
     updateConfig();
@@ -62,13 +79,19 @@ public class ConnectController implements Initializable {
     }
   }
 
+  /**
+   * Updates the configuration file
+   */
   private void updateConfig() {
-    if (ConfigManager.config.getProperty("httpMethod") == null || ConfigManager.config.getProperty("address") == null || ConfigManager.config.getProperty("port") == null) {
+    if (ConfigManager.config.getProperty("httpMethod") == null || ConfigManager.config.getProperty("address") == null
+        || ConfigManager.config.getProperty("port") == null) {
       ConfigManager.reset();
       return;
     }
 
-    if ((ConfigManager.config.getProperty("httpMethod").equals(httpMethod.getValue().substring(0, httpMethod.getValue().length() - 3))) || ConfigManager.config.getProperty("apiEndpoint").equals(serverAddressField.getText())) {
+    if ((ConfigManager.config.getProperty("httpMethod")
+        .equals(httpMethod.getValue().substring(0, httpMethod.getValue().length() - 3)))
+        || ConfigManager.config.getProperty("apiEndpoint").equals(serverAddressField.getText())) {
       Properties config = new Properties();
       config.setProperty("httpMethod", httpMethod.getValue().substring(0, httpMethod.getValue().length() - 3));
 

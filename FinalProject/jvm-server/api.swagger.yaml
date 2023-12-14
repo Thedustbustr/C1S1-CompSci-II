@@ -1,0 +1,284 @@
+openapi: 3.0.3
+info:
+  title: Super Cool Api Server
+  description: |-
+    Small api server for random universe generation data. 
+  version: Pre-release 1
+servers:
+  - url: http://localhost:8080
+tags:
+  - name: Universe Generation
+    description: All things universe gen
+paths:
+  /:
+    get:
+      tags:
+        - Universe Generation
+      summary: Returns "hi"
+      operationId: handshake
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            text/plain:
+              schema:
+                $ref: '#/components/schemas/handshake'    
+  /stars:
+    get:
+      tags:
+        - Universe Generation
+      summary: Returns all star systems that are currently loaded
+      operationId: getStars
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/stars'
+  /stars/{starID}:
+    get:
+      tags:
+        - Universe Generation
+      summary: Returns all star systems that are currently loaded
+      operationId: getStar
+      parameters:
+        - name: starID
+          in: path
+          description: 'The name that needs to be fetched. Use user1 for testing. '
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/star'
+  /stars/{starID}/satellites:
+    get:
+      tags:
+        - Universe Generation
+      summary: Returns all satellites in the given star system
+      operationId: getSatellites
+      parameters:
+        - name: starID
+          in: path
+          description: 'The name that needs to be fetched. Use user1 for testing. '
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/satellites'
+  /stars/{starID}/satellites/{satelliteID}:
+    get:
+      tags:
+        - Universe Generation
+      summary: Returns all star systems that are currently loaded
+      operationId: getSatellite
+      parameters:
+        - name: starID
+          in: path
+          description: 'The name that needs to be fetched. Use user1 for testing. '
+          required: true
+          schema:
+            type: string
+        - name: satelliteID
+          in: path
+          description: 'The name that needs to be fetched. Use user1 for testing. '
+          required: true
+          schema:
+            type: string
+      responses:
+        '200':
+          description: Successful operation
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/satellite'
+components:
+  schemas:
+    handshake:
+      type: string
+      example: hi
+    
+    stars:
+      type: array
+      items: 
+        $ref: '#/components/schemas/star'
+        
+    satellites:
+      type: array
+      items: 
+        $ref: '#/components/schemas/satellite'
+    
+    star:
+      type: object
+      properties:
+        starClass:
+          type: string
+          example: A
+        starType:
+          type: string
+          example: Class A Black Hole
+        temperature:
+          type: number
+          example: 9033
+        luminosity:
+          type: number
+          example: 4.50038553010718e+27
+        networkID:
+          type: string
+          example: f929b19e-51f4-4f0c-814a-9c91de61c1fd
+        color:
+          type: object
+          properties:
+            r:
+              type: number
+              example: 0
+            g:
+              type: number
+              example: 0
+            b:
+              type: number
+              example: 0
+            a:
+              type: number
+              example: 1
+        mass:
+          type: number
+          example: 	1.1553527876308445e+30
+        position:
+          $ref: '#/components/schemas/vector3'
+        velocity:
+          $ref: '#/components/schemas/vector3'
+        radius:
+          type: number
+          example: 1715.9104315168024
+        gravity: 
+          type: number
+          example: 26188872164567.203
+        density:
+          type: number
+          example: 54593654115167910000
+        maximumGravitationalReach:
+          type: number
+          example: 1059463564778.991
+        minimumSafeDistanceToGenerate:
+          type: number
+          example: 7791840000
+        satellites:
+          type: array
+          items:
+            $ref: '#/components/schemas/satellite'
+            
+    satellite:
+      type: object
+      properties:
+        typ:
+          type: string
+          example: Rocky
+        orbitalPeriod:
+          type: number
+          example: 492138.64470093325
+        orbitalParameters:
+          $ref: '#/components/schemas/orbitalParameters'
+        networkID:
+          type: string
+          example: 2d66c87e-b211-4999-b127-a0f695e6713a
+        color:
+          type: object
+          properties:
+            r:
+              type: number
+              example: 0
+            g:
+              type: number
+              example: 0
+            b:
+              type: number
+              example: 0
+            a:
+              type: number
+              example: 1
+        mass:
+          type: number
+          example: 6.3484486e+24
+        position:
+          $ref: '#/components/schemas/vector3'
+        velocity:
+          $ref: '#/components/schemas/vector3'
+        radius:
+          type: number
+          example: 68525576.36990896
+        gravity: 
+          type: number
+          example: 0.09023055353115343
+        density:
+          type: number
+          example: 6.28
+        maximumGravitationalReach:
+          type: number
+          example: 61322410.592809096
+        minimumSafeDistanceToGenerate:
+          type: number
+          example: 548204610.9592717
+        satellites:
+          type: array
+          items:
+            $ref: '#/components/schemas/satellite'
+            
+    orbitalParameters:
+      type: object
+      properties:
+        µ:
+          type: number
+          example: 77109593029250990000
+        semiMajorAxis: 
+          type: number
+          example: 7791804049.363497
+        semiMinorAxis: 
+          type: number
+          example: 7791804049.24587
+        apoapsis: 
+          type: number
+          example: 7791846863.468538
+        periapsis: 
+          type: number
+          example: 7791761235.258455
+        eccentricity: 
+          type: number
+          example: 0.000005494761517334367
+        inclination: 
+          type: number
+          example: 1.5707963267948966
+        argumentOfPeriapsis: 
+          type: number
+          example: 3.141592653589793
+        longitudeOfTheAscendingNode: 
+          type: number
+          example: 0
+        specificAngularMomentum:
+          $ref: '#/components/schemas/vector3'
+        orbitalPeriod: 
+          type: number
+          example: 492133.23634723056
+      
+    vector3:
+      type: object
+      properties:
+        x:
+          type: number
+          example: 0
+        y:
+          type: number
+          example: 0
+        z:
+          type: number
+          example: 0

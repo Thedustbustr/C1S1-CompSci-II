@@ -7,12 +7,20 @@ import java.io.InputStream;
 import java.io.OutputStream;
 import java.util.Properties;
 
+/**
+ * Manages configuration file
+ */
 public class ConfigManager {
-  private ConfigManager() {}
+  private ConfigManager() {
+  }
 
   private static final String FILE_PATH = "config.properties";
   public static Properties config = ConfigManager.loadConfiguration();
 
+  /** 
+   * Saves the given configuration to disk
+   * @param props The configuration
+   */
   public static void saveConfiguration(Properties props) {
     try (OutputStream output = new FileOutputStream(FILE_PATH)) {
       props.store(output, "Configuration Properties");
@@ -22,6 +30,10 @@ public class ConfigManager {
     }
   }
 
+  /** 
+   * Loads the configuration from disk
+   * @return Properties The configuration
+   */
   public static Properties loadConfiguration() {
     Properties props = new Properties();
     try (InputStream input = new FileInputStream(FILE_PATH)) {
@@ -33,6 +45,9 @@ public class ConfigManager {
     return props;
   }
 
+  /**
+   * Resets configuration file
+   */
   public static void reset() {
     System.out.println("[WARN] Invalid address format; reverting to default: localhost:8080");
 
